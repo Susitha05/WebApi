@@ -6,7 +6,7 @@ function App() {
 
   const fetchMessage = async () => {
     setLoading(true);
-    const res = await fetch("http://web-api-kappa-silk.vercel.app/");
+    const res = await fetch("https://web-api-kappa-silk.vercel.app/");
     const data = await res.json();
     setMessage(data);
     setLoading(false);
