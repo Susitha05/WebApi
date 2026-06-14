@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Susitha05/WebApi#readme",
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.2.1"
   }
 }
