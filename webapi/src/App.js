@@ -6,7 +6,7 @@ function App() {
 
   const fetchMessage = async () => {
     setLoading(true);
-    const res = await fetch("/api");
+    const res = await fetch("/");
     const data = await res.json();
     setMessage(data);
     setLoading(false);
