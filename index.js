@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors());
 
-app.get("/", (req, res) => {
+app.get("https://web-api-kappa-silk.vercel.app/", (req, res) => {
   res.json({ message: "Hello Worldjjj" });
 });
 
