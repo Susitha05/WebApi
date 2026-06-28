@@ -1,25 +1,13 @@
+
 {
-  "name": "webapi",
+  "name": "minimal-express-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Minimal Express.js application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Susitha05/WebApi.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Susitha05/WebApi/issues"
-  },
-  "homepage": "https://github.com/Susitha05/WebApi#readme",
   "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^4.21.2"
   }
 }
